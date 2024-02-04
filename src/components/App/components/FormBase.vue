@@ -5,7 +5,6 @@
         <h1>Aanmelden</h1>
 
         <h2>Gegevens</h2>
-        {{ JSON.stringify(formValues) }}
         <FormReason v-model:reason="formValues.reason" />
         <FormUserPersonal
             v-model:firstName="formValues.firstName"

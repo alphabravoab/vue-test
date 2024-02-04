@@ -95,7 +95,7 @@
   </div>
 </template>
 <script>
-import {priceCheck, termCheck} from "@/components/App/components/priceCheck";
+import { priceCheck, termCheck } from "@/components/App/utils/priceCheck";
 
 const formatter = new Intl.NumberFormat('nl');
   export default {
